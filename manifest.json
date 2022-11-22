@@ -1,0 +1,17 @@
+{
+	"name": "Hide TIG",
+	"version": "1.0.0",
+	"description": "hide the tig card in the 42intra",
+	"manifest_version": 3,
+	"author": "lsaidi",
+	"action": {
+		"default_popup": "index.html",
+		"default_title": "Hide TIG"
+	},
+	"content_scripts": [
+		{
+            "js": ["triggerTig.js"],
+			"matches": ["https://shop.intra.42.fr/*"]
+		}
+	]
+}
