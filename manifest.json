@@ -10,6 +10,7 @@
 	},
 	"content_scripts": [
 		{
+			"css": ["styles.css"],
             "js": ["triggerTig.js"],
 			"matches": ["https://shop.intra.42.fr/*"]
 		}
